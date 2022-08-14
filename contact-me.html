@@ -1,0 +1,23 @@
+<!DOCTYPE html>  <!-- -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Me</title>
+  </head>
+  <body>
+    <h1>My Contact Details</h1>
+    <p>My Fictional Address</p>
+    <p>123456879</p>
+    <p>me@gmail.gov</p>
+    <hr>
+    <form action="mailto:dummy@gmail.com" method="post" enctype="text/plain"> <!--Form tag, defines what goes into our form, action attribute specifies what happens when form is submitted -->
+      <label>Your Name</label> <!--label tag, write text that will be displayed as label in form-->
+      <input type="text" name="yourName" value=""><br> <!--input tag, input is next to label. attribute set to "text" making this a text Box but we can make this something else: see inputs.html-->
+      <label>Your Email</label>
+      <input type="email" name="yourEmail" value=""><br><!--another input tag with type attribute set to "email", which makes this a email button -->
+      <label>Your Message</label><br> <!-- ^^^ value attributes identify the data inside of each input-->
+      <textarea name="yourMessage" rows="10" cols="30"></textarea><br> <!--text area tag for text fields, has row(height) and column(width) attributes-->
+      <input type="submit" name=""><!--another input tag with type attribute set to "submit", which makes this a submit button -->
+    </form>
+  </body>
+</html>
